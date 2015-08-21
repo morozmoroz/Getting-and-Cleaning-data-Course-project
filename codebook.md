@@ -1,34 +1,56 @@
-##Code Book
+#Code Book
 
 Each row in this data containing values of features for particular combination of subject and activity.
 Features are normalized and bounded within [-1,1], then averaged accross data for particular subject and activity.
 
 Here:
-*Activity - type of subject's activity
-*Subject - identificator of a person participating in experiment
+
+* Activity - type of subject's activity
+
+* Subject - identificator of a person participating in experiment
 
 Features:
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-*tBodyGyro-XYZ
-*tBodyGyroJerk-XYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+
+* tBodyAcc-XYZ
+
+* tGravityAcc-XYZ
+
+* tBodyAccJerk-XYZ
+
+* tBodyGyro-XYZ
+
+* tBodyGyroJerk-XYZ
+
+* tBodyAccMag
+
+* tGravityAccMag
+
+* tBodyAccJerkMag
+
+* tBodyGyroMag
+
+* tBodyGyroJerkMag
+
+* fBodyAcc-XYZ
+
+* fBodyAccJerk-XYZ
+
+* fBodyGyro-XYZ
+
+* fBodyAccMag
+
+* fBodyAccJerkMag
+
+* fBodyGyroMag
+
+* fBodyGyroJerkMag
+
 
 Every feature in data expressed with two values for X- Y- and Z- axis accordingly:
-*mean(): Mean value
-*std(): Standard deviation
+
+* mean(): Mean value
+
+* std(): Standard deviation
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
